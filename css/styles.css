@@ -1,7 +1,7 @@
 body {
     margin: 0;
     font-family: Arial, sans-serif;
-    background-color: #1c1c1c; /* Greyish-black background */
+    background-color: #1c1c1c;
     color: white;
 }
 
@@ -14,24 +14,24 @@ body {
     text-align: right;
 }
 
-/* Existing styles remain unchanged */
+
 
 .topbar ul li a {
     color: white;
-    font-size: 24px; /* Adjust icon size */
+    font-size: 24px; 
     margin-right: 20px;
     transition: color 0.3s ease;
 }
 
 .topbar ul li a:hover {
-    color: #ff69b4; /* Pink color on hover */
+    color: #ff69b4;
 }
 
-/* Existing styles remain unchanged */
+
 
 .service-text {
     font-size: 24px;
-    color: white; /* White color for the introductory text */
+    color: white; 
     margin-bottom: 20px;
 }
 
@@ -44,7 +44,7 @@ body {
 .service-list li {
     font-size: 18px;
     margin-bottom: 10px;
-    font-weight: bold; /* Make the text bold */
+    font-weight: bold;
     background: linear-gradient(90deg, #ff69b4, #ff1493);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -73,21 +73,21 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    color: #ff69b4; /* Soft pink on hover */
+    color: #ff69b4; 
 }
 
 .intro {
     display: flex;
     align-items: center;
-    justify-content: center; /* Centers the content horizontally */
-    margin-top: 150px; /* Space below the topbar */
+    justify-content: center; 
+    margin-top: 150px; 
     padding: 0 40px;
 }
 
 .intro-text {
     max-width: 600px;
-    text-align: left; /* Ensure text alignment is to the left */
-    margin-right: 50px; /* Space between text and image */
+    text-align: left; 
+    margin-right: 50px;
 }
 
 .intro h1 {
@@ -97,7 +97,7 @@ nav ul li a:hover {
 
 .intro .name {
     font-size: 28px;
-    color: #ff69b4; /* Pink color for the name */
+    color: #ff69b4; 
 }
 
 .intro h2 {
@@ -107,7 +107,7 @@ nav ul li a:hover {
 
 .intro .role {
     font-weight: bold;
-    color: #ff69b4; /* Pink color for the role */
+    color: #ff69b4; 
 }
 
 .intro p {
@@ -127,14 +127,14 @@ nav ul li a:hover {
 }
 
 .profile-pic {
-    max-width: 400px; /* Adjust the width as needed */
+    max-width: 400px;
     height: auto;
 }
 
 section {
     padding: 100px 20px;
     margin-top: 80px;
-    text-align: center; /* Center the content section headings */
+    text-align: center;
 }
 
 section h1 {
@@ -164,10 +164,8 @@ section p {
 
 .cta-button:hover {
     box-shadow: 0 0 15px #ff69b4, 0 0 30px #ff69b4, 0 0 45px #ff69b4;
-    transform: scale(1.05); /* Slightly enlarges the button when hovered */
+    transform: scale(1.05); 
 }
-
-/* Existing styles remain unchanged */
 
 .portfolio-gallery {
     display: flex;
@@ -176,13 +174,32 @@ section p {
     gap: 20px;
 }
 
-.portfolio-gallery img {
+.portfolio-item {
+    position: relative;
     max-width: 300px;
-    height: auto;
+    text-align: center; 
+}
+
+.portfolio-gallery img {
+    width: 100%;
     border-radius: 10px;
 }
 
-/* Existing styles remain unchanged */
+.portfolio-link {
+    display: block;
+    margin-top: 10px;
+    color: #ff69b4; 
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    transition: color 0.3s ease, text-decoration 0.3s ease;
+}
+
+.portfolio-link:hover {
+    color: #ff1493;
+    text-decoration: underline; 
+}
+
 
 .contact-icons {
     display: flex;
@@ -198,6 +215,6 @@ section p {
 }
 
 .contact-icons a:hover {
-    color: #ff69b4; /* Pink color on hover */
-    transform: scale(1.1); /* Slightly enlarges the icon when hovered */
+    color: #ff69b4; 
+    transform: scale(1.1); 
 }
