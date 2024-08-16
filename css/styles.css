@@ -189,16 +189,17 @@ section p {
 
 .portfolio-item a {
     display: block;
-    margin-top: 10px;
-    color: #ff69b4;
-    text-decoration: none;
+    margin-top: 10px; 
+    color: #ff69b4; 
     font-size: 18px;
+    font-weight: bold; 
+    text-decoration: none; 
     transition: color 0.3s ease, text-decoration 0.3s ease;
 }
 
 .portfolio-item a:hover {
-    color: #ff1493;
-    text-decoration: underline;
+    color: #ff1493; 
+    text-decoration: none; 
 }
 
 
