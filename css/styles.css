@@ -15,10 +15,9 @@ body {
 }
 
 
-
 .topbar ul li a {
     color: white;
-    font-size: 24px; 
+    font-size: 24px;
     margin-right: 20px;
     transition: color 0.3s ease;
 }
@@ -31,7 +30,7 @@ body {
 
 .service-text {
     font-size: 24px;
-    color: white; 
+    color: white;
     margin-bottom: 20px;
 }
 
@@ -73,20 +72,20 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    color: #ff69b4; 
+    color: #ff69b4;
 }
 
 .intro {
     display: flex;
     align-items: center;
-    justify-content: center; 
-    margin-top: 150px; 
+    justify-content: center;
+    margin-top: 150px;
     padding: 0 40px;
 }
 
 .intro-text {
     max-width: 600px;
-    text-align: left; 
+    text-align: left;
     margin-right: 50px;
 }
 
@@ -97,7 +96,7 @@ nav ul li a:hover {
 
 .intro .name {
     font-size: 28px;
-    color: #ff69b4; 
+    color: #ff69b4;
 }
 
 .intro h2 {
@@ -107,7 +106,7 @@ nav ul li a:hover {
 
 .intro .role {
     font-weight: bold;
-    color: #ff69b4; 
+    color: #ff69b4;
 }
 
 .intro p {
@@ -164,8 +163,10 @@ section p {
 
 .cta-button:hover {
     box-shadow: 0 0 15px #ff69b4, 0 0 30px #ff69b4, 0 0 45px #ff69b4;
-    transform: scale(1.05); 
+    transform: scale(1.05);
 }
+
+
 
 .portfolio-gallery {
     display: flex;
@@ -175,30 +176,29 @@ section p {
 }
 
 .portfolio-item {
-    text-align: center; /* Center the content inside portfolio-item */
-    max-width: 300px;
+    text-align: center;
 }
 
 .portfolio-item img {
-    width: 100%;
+    max-width: 300px;
     height: auto;
     border-radius: 10px;
-    display: block; /* Ensure the image is displayed as a block element */
+    display: block;
+    margin: 0 auto;
 }
 
-.portfolio-link {
-    display: block; /* Ensure the link takes up its own line */
+.portfolio-item a {
+    display: block;
     margin-top: 10px;
-    color: #ff69b4; /* Pink color for the links */
+    color: #ff69b4;
     text-decoration: none;
-    font-size: 16px;
-    font-weight: bold;
+    font-size: 18px;
     transition: color 0.3s ease, text-decoration 0.3s ease;
 }
 
-.portfolio-link:hover {
-    color: #ff1493; /* Darker pink on hover */
-    text-decoration: underline; /* Underline on hover */
+.portfolio-item a:hover {
+    color: #ff1493;
+    text-decoration: underline;
 }
 
 
@@ -216,6 +216,6 @@ section p {
 }
 
 .contact-icons a:hover {
-    color: #ff69b4; 
-    transform: scale(1.1); 
+    color: #ff69b4;
+    transform: scale(1.1);
 }
